@@ -1,0 +1,77 @@
+/* src/components/events/EventList.css */
+
+.event-list-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .create-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+  }
+  
+  .create-button:hover {
+    background-color: #218838;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .event-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .event-item {
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .event-item:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .details-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+  }
+  
+  .details-link:hover {
+    text-decoration: underline;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .event-list-container a {
+    text-decoration: none; /* Removes underline */
+  }
+  

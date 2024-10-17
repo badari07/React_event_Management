@@ -1,0 +1,57 @@
+/* Login.css */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f2f5; /* Light background color */
+  }
+  
+  .login-form {
+    background-color: #ffffff; /* White background for form */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 300px; /* Set a fixed width */
+  }
+  
+  .login-form h2 {
+    text-align: center; /* Centered title */
+    margin-bottom: 20px; /* Space below title */
+  }
+  
+  .login-form input {
+    width: 100%; /* Full width inputs */
+    padding: 10px;
+    margin-bottom: 15px; /* Space between inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Slightly rounded corners */
+    font-size: 16px; /* Font size */
+  }
+  
+  .login-form button {
+    width: 100%; /* Full width button */
+    padding: 10px;
+    background-color: #007bff; /* Primary button color */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .login-form button:disabled {
+    background-color: #ccc; /* Gray color when disabled */
+    cursor: not-allowed; /* Not allowed cursor */
+  }
+  
+  .login-form button:hover:not(:disabled) {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .login-form p {
+    text-align: center; /* Center any paragraph */
+    color: red; /* Error message color */
+  }
+  

@@ -1,0 +1,56 @@
+/* EventForm.css */
+
+form {
+    max-width: 500px; /* Maximum width of the form */
+    margin: 0 auto; /* Center the form on the page */
+    padding: 20px; /* Add some padding inside the form */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside the input */
+    margin: 10px 0; /* Margin between inputs */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in element's total width */
+  }
+  
+  textarea {
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 15px; /* Padding around the button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    margin-top: 10px; /* Margin above the button */
+  }
+  
+  button:disabled {
+    background-color: #ccc; /* Light grey when disabled */
+    cursor: not-allowed; /* Not-allowed cursor */
+  }
+  
+  button:hover:not(:disabled) {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  button + button {
+    margin-left: 10px; /* Margin between the two buttons */
+  }
+  
+  h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark grey color */
+  }
+  

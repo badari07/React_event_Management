@@ -1,0 +1,57 @@
+/* EventDetail.css */
+
+.event-detail {
+    max-width: 600px; /* Set a max width for the event detail */
+    margin: 0 auto; /* Center the detail section */
+    padding: 20px; /* Padding inside the detail */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark grey color */
+  }
+  
+  p {
+    font-size: 16px; /* Font size for paragraph */
+    margin: 10px 0; /* Margin between paragraphs */
+  }
+  
+  .button-group {
+    display: flex; /* Use flexbox for buttons */
+    justify-content: center; /* Center buttons */
+    margin: 20px 0; /* Margin above and below the buttons */
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 15px; /* Padding around the button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    margin: 0 10px; /* Margin between buttons */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+
+  .creator-details {
+    background-color: #fff; /* White background for creator details */
+    padding: 15px; /* Padding around the creator details */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners for the details box */
+    margin-top: 10px; /* Space above the creator details */
+  }
+  
+  .creator-details p {
+    margin: 5px 0; /* Margin for paragraphs to prevent crowding */
+    color: #333; /* Dark color for text */
+    font-weight: normal; /* Normal font weight for detail text */
+  }
+  
